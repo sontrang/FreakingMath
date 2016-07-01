@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    style="@style/ParentLayout">
+
+
+        <ProgressBar
+            android:id="@+id/prBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentTop="true"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prBar">
+
+            <ToggleButton
+                android:id="@+id/tgSound"
+                style="@style/Button"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/toggle_sound" />
+
+            <TextView
+                android:id="@+id/tvScoreTemp"
+                style="@style/TextView"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvMath"
+        style="@style/TextView"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnTrue"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_true" />
+
+        <Button
+
+            android:id="@+id/btnFalse"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_false" />
+    </LinearLayout>
+</RelativeLayout>

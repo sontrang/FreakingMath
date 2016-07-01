@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <!--<style name="MainActivityAnimation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/visi_in</item>-->
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+    <!--</style>-->
+
+    <style name="Dialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <!--<style name="WelcomeActivityAnimation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/visi_in</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/slide_out</item>-->
+    <!--</style>-->
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:checked">true</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+
+    </style>
+
+    <style name="ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>
